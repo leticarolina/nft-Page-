@@ -13,38 +13,43 @@
     <link href="/style.css" rel="stylesheet" />
 
     <title>NFT preview card component</title>
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
+    
   </head>
   <body>
-    <div class="box">
-      <div class="b">
-        <div class="image"></div>
+   <div class="box">
+    <div class="box-card">
+      <div class="photos">
+      <img class="eth" src="/images/image-equilibrium.jpg" alt="NFT Image">
+      <img class="overlay" src="/images/icon-view.svg">
+      </div>
         <h1>Equilibrium #3429</h1>
         <h2>Our Equilibrium collection promotes balance and calm.</h2>
+
         <div class="block2">
-          <h3 class="price">0.041 ETH</h3>
-          <h3 class="days">3 days left</h3>
+          <div class="blockprice">
+            <img src="/images/icon-ethereum.svg" />
+            <h3 class="price">0.041 ETH</h3>
+          </div>
+          <div class="blockdays">
+            <img src="/images/icon-clock.svg" />
+            <h3 class="days">3 days left</h3>
+          </div>
         </div>
+
         <div class="line"></div>
-        <p class="creator">
-          <img src="/images/image-avatar.png" class="creatorpic" /> Creation of
-          Jules Wyvern
-        </p>
+        <div class="block3">
+        <img src="/images/image-avatar.png" class="creatorpic" />
+        <p class="creator">Creation of <a href="#">Jules Wyvern</a></p>
       </div>
     </div>
 
-    <div class="attribution">
-      <p>Challenge by</p>
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
+    <span class="attribution">
+      <p>Challenge by: </p>
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      <p>Coded by:</p>
       <a href="https://github.com/leticarolina" target="_blank"
         >Leticia Azevedo</a
-      >
-    </div>
+     >
+    </span>
   </body>
 </html>
