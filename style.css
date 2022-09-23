@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: "Outfit";
-  src: url(./font/Outfit.ttf) format("truetype");
+  src: url(../font/Outfit.ttf) format("truetype");
 }
 
 @font-face /*created this new font face only to obtein the 300 font weight*/ {
   font-family: "Outfit";
-  src: url(./font/Outfit.ttf) format("truetype");
+  src: url(../font/Outfit.ttf) format("truetype");
   font-weight: 300;
 }
 
