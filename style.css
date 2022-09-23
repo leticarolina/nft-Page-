@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(/FONT/Outfit.ttf) format("truetype");
+}
+
+@font-face /*created this new font face only to obtein the 300 font weight*/ {
+  font-family: "Outfit";
+  src: url(/FONT/Outfit.ttf) format("truetype");
+  font-weight: 300;
+}
+
+@font-face /*created this new font face only to obtein the 300 font weight*/ {
+  font-family: "Outfit";
+  src: url(/FONT/Outfit.ttf) format("truetype");
+  font-weight: 600;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "outfit";
+}
+
+.box {
+  display: flex;
+  justify-content: center; /*postion box horizontally centered*/
+  align-items: center; /*align the box in the center of the page vertically*/
+  height: 100vh;
+}
+
+.box-card {
+  height: 500px;
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+img.eth {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.photos {
+  height: 250px;
+  width: 260px;
+  position: relative;
+}
+
+.photos .overlay /*treat both class together so they will be displyed at the same spot*/ {
+  top: 50%; /*top and left will centralize the overlay based on the edge of the image*/
+  left: 50%;
+  transform: translate(-50%, -50%); /* will actually centralize the overlay*/
+  position: absolute;
+  display: none;
+}
+
+.photos:hover .overlay {
+  display: block; /*will make the overlay display when hover*/
+  background: hsl(
+    178,
+    100%,
+    50%,
+    0.4
+  ); /*will change the background color behind the overlay, also setting the opacity here will apply only on the color*/
+  padding: 100px 105px; /*make the background of the overlay bigger even though the overlay itself is smaller*/
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+h1 {
+  color: aliceblue;
+  padding: 20px 0px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+h2 {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+
+.block2 {
+  display: flex;
+  justify-content: space-between; /*space between the content throught the flex display*/
+}
+
+.blockprice,
+.blockdays {
+  display: flex;
+}
+.price {
+  color: hsl(178, 100%, 50%);
+  font-size: 15px;
+}
+
+.days {
+  /* float: right; make this text aligned to the right side*/
+  color: hsl(215, 51%, 70%);
+  font-size: 15px;
+  font-weight: 300;
+}
+
+h3 {
+  padding-left: 5px;
+}
+
+.line {
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  margin-top: 20px;
+}
+
+.creator {
+  color: aliceblue;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.creatorpic {
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%; /*to make the border a circle*/
+}
+
+.block3 {
+  display: flex;
+  padding-top: 15px;
+}
+
+.creator,
+.creatorpic {
+  display: flex;
+  align-items: center; /*aligned picture and text*/
+}
+
+h1:hover,
+.attribution a:hover,
+.block3 a:hover {
+  color: hsl(178, 100%, 50%);
+}
+.attribution {
+  display: flex;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  color: hsl(215, 51%, 70%);
+}
+.attribution a {
+  color: hsl(215, 51%, 70%);
+  padding-left: 3px;
+}
+
+.attribution p {
+  padding-left: 5px;
+}
+
+.block3 a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-left: 3px;
+}
