@@ -5,8 +5,8 @@
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
 - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
