@@ -3,7 +3,6 @@
 ## Table of contents
 
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
@@ -23,9 +22,6 @@ Users should be able to:
 - See hover states for interactive elements
 - Make the Page as similar as possible from the preview.
 
-### Screenshot
-
-![/Users/admin/Documents/ACADEMY/CHALLANGES/nft-preview-card-component-main/screenshot.png](./screenshot.jpg)
 
 ### Links
 
