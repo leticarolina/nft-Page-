@@ -12,7 +12,7 @@
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
 
-Doing this project has helped me to practice some tools I learned specially in CSS, I really like to comment my code while I work on a project, specially throught my learning process so my goal here was to genuinelly understand each line of code written and also
+Doing this project has helped me to practice some tools I learned specially in CSS, I really like to comment my code while I work on a project, specially throught my learning process so my goal here was to genuinelly understand each line of code written.
 
 ### The challenge
 
